@@ -1,0 +1,162 @@
+/* Menu completo */
+nav {
+    width: 100%;
+    height: 34px;
+  }
+  
+  /* Opções do menu - todas */
+  nav ul {
+    width: 100%;
+    height: 34px;
+    margin-top: 0px;
+    margin-left: -34.5px;
+    position: fixed;
+    border-bottom: solid black 1px;
+  }
+  
+  /* Cada uma das opções do menu */
+  .menu-item {
+    list-style: none;
+    display: inline-block;
+  }
+  
+  /* Link de cada item do menu */
+  .menu-item a {
+    text-decoration: none;
+    font-size: 20px;
+    /* top right bottom left */
+    padding: 12px 50px 12px 50px;
+    margin-left: -5px;
+    border: solid black 0.5px;
+  }
+  
+  #form {
+    width: 30%;
+    margin-left: 68%;
+    margin-top: -18px;
+    margin-right: 0px;
+  }
+  
+  /* Formulário para busca no site (contém caixa de texto e botão 'btnBuscar') */
+  .form-menu {
+    width: 100%;
+    /* margin-left: 68%; */
+    margin-right: 0px;
+    margin-top: -31px;
+  }
+  
+  /* Caixa de texto usado para input de buscas (.input-buscar) */
+  .input-buscar {
+    width: 72%;
+    height: 36px;
+    margin-top: 1.7px;
+  }
+  
+  /* -------------------------------------------------------------
+  Botão btnBuscar para realizar busca no site
+  -Alteração do tamanho do botão
+  --------------------------------------------------------------*/
+  .btnBuscar {
+    height: 36px;
+    width: 24%;
+  }
+  
+  /* -------------------------------------------------------------
+  Configurar form dropdown
+  --------------------------------------------------------------*/
+  
+  .dropdown {
+    width: 100%;
+    margin-left: 20%;
+  }
+  
+  .a-drop {
+    padding: 6px;
+    background-color: rgb(190, 190, 190);
+    border-radius: 200px;
+    text-decoration: none;
+    
+  }
+  
+  /* Seta pra baixo  */
+  .a-drop:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    width: 0; 
+    height: 0; 
+  
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid rgb(190, 190, 190);
+  }
+  .dropdown-content {
+    display: none;
+    margin-top: -3px;
+    padding-top: 20px;
+    background-color: rgb(190, 190, 190);
+    width: 122.7px;
+    position: absolute;
+  }
+  
+  .dropdown-input-buscar {
+    width: 50px;
+  }
+  
+  @media only screen and (max-width: 1280px) {
+    nav {
+      width: 1265px;
+    }
+  }
+  
+  @media only screen and (max-width: 1180px) {
+    .menu-item a {
+      /* top right bottom left */
+      padding: 12px 50px 12px 48px;
+    }
+  }
+  
+  @media only screen and (max-width: 1160px) {
+    .menu-item a {
+      /* top right bottom left */
+      padding: 12px 50px 12px 46px;
+    }
+  }
+  
+  @media only screen and (max-width: 1140px) {
+    .menu-item a {
+      /* top right bottom left */
+      padding: 12px 50px 12px 44px;
+    }
+  }
+  
+  @media only screen and (max-width: 1120px) {
+    .menu-item a {
+      /* top right bottom left */
+      padding: 12px 50px 12px 42px;
+    }
+  }
+  
+  @media only screen and (max-width: 1100px) {
+    .menu-item a {
+      /* top right bottom left */
+      padding: 12px 50px 12px 40px;
+    }
+  }
+  
+  @media only screen and (max-width: 1080px) {
+    .menu-item a {
+      /* top right bottom left */
+      padding: 12px 50px 12px 38px;
+    }
+  }
+  
+  @media only screen and (max-width: 1060px) {
+    .menu-item a {
+      /* top right bottom left */
+      padding: 12px 50px 12px 36px;
+    }
+  }
+  
+  

@@ -1,0 +1,336 @@
+/* MENU SEM DROPDOWN ------------------------------------
+-------------------------------------------------------*/
+
+/* Menu completo */
+#menu {
+    width: 100%;
+    height: 34px;
+    display: none;
+    background-color: rgb(180, 180, 180);
+  }
+  
+  /* Opções do menu - todas */
+  #menu ul {
+    width: 100%;
+    height: 46px;
+    position: fixed;
+    background-color: rgb(180, 180, 180);
+    top: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+  
+  /* Cada uma das opções do menu */
+  .menu-item {
+    list-style: none;
+    display: inline-block;
+    height: 34px;
+    padding-top: 12px;
+  }
+  
+  /* Link de cada item do menu */
+  .menu-link {
+    text-decoration: none;
+    font-size: 20px;
+    /* top right bottom left */
+    padding: 12px 32px 12px 32px;
+    margin: 0;
+    height: auto;
+  }
+  /* Menu completo - Dropdown */
+  #menu-dropdown {
+    display: none;
+    margin-top: -8px;
+    width: 300px;
+    background-color: blue;
+    height: 100%;
+    position: fixed;
+  }
+  
+  /* Menu dropdown (tela menor que 800px) */
+  .a-drop {
+    text-decoration: none;
+    border-radius: 10px;
+    border: solid black 1px;
+    font-size: 30px;
+    padding: 6px 46px 6px 46px;
+  }
+  
+  /* Seta pra baixo ao lado de menu */
+  .a-drop:after {
+    content: "";
+      display: inline-block;
+      vertical-align: middle;
+      margin-left: 10px;
+      width: 0; 
+      height: 0; 
+    
+      border-left: 5px solid transparent;
+      border-right: 5px solid transparent;
+      border-top: 5px solid rgb(190, 190, 190);
+  }
+  
+  
+  /* Opções do menu dropdown - todas*/
+  #menu-dropdown ul {
+    width: 300px;
+    margin-left: -35px;
+    margin-top: 24px;
+  }
+  
+  
+  
+  /* Cada uma das opções do menu drop */
+  .menu-item-dropdown {
+    list-style: none;
+    display: none; /* list-item */
+    position: relative;
+    margin-top: 10px;
+    height: 46px;
+  }
+  
+  
+  /* Link de cada item do menu dropdown*/
+  .menu-item-dropdown a {
+    text-decoration: none;
+    font-size: 20px;
+    /* top right bottom left */
+    padding: 12px 50px 12px 50px;
+    margin-left: -5px;
+  }
+  
+  /* Separação de cada item - menu drop */
+  .menu-item-dropdown:after {
+    content: "";
+    display: block;
+    border: solid #CCC 1px;
+    margin-top: 10px;
+  }
+  
+  /* Formulário para busca no site (contém caixa de texto e botão 'btnBuscar') */
+  .form-menu {
+    width: 30%;
+    margin-left: 68%;
+    margin-right: 0px;
+    margin-top: -31px;
+  }
+  
+  /* Caixa de texto usado para input de buscas (.input-buscar) */
+  .input-buscar {
+    width: 72%;
+    height: 36px;
+    margin-top: 1.7px;
+    border-radius: 300px;
+  }
+  
+  @media only screen and (max-width: 1280px) {
+    #menu {
+      width: 1265px;
+    }
+  
+  }
+  
+  @media only screen and (max-width: 1260px) {
+    #menu {
+      width: 1265px;
+    }
+    .form-menu {
+      margin-left: 70%;
+    }
+  }
+  
+  @media only screen and (max-width: 1240px) {
+    #menu {
+      width: 1265px;
+    }
+  }
+  
+  @media only screen and (max-width: 1220px) {
+    #menu {
+      width: 1265px;
+    }
+  }
+  
+  @media only screen and (max-width: 1200px) {
+    #menu {
+      width: 1265px;
+    }
+    
+  }
+  
+  @media only screen and (max-width: 1180px) {
+    .menu-item a {
+      /* top right bottom left */
+      padding: 12px 50px 12px 48px;
+    }
+  }
+  
+  @media only screen and (max-width: 1160px) {
+    .menu-item a {
+      /* top right bottom left */
+      padding: 12px 50px 12px 46px;
+    }
+    .form-menu {
+      margin-left: 72%;
+    }
+  }
+  
+  @media only screen and (max-width: 1140px) {
+    .menu-item a {
+      /* top right bottom left */
+      padding: 12px 50px 12px 44px;
+    }
+  }
+  
+  @media only screen and (max-width: 1120px) {
+    .menu-item a {
+      /* top right bottom left */
+      padding: 12px 50px 12px 42px;
+    }
+  }
+  
+  @media only screen and (max-width: 1100px) {
+    .menu-item a {
+      /* top right bottom left */
+      padding: 12px 50px 12px 40px;
+    }
+  }
+  
+  @media only screen and (max-width: 1080px) {
+    .menu-item a {
+      /* top right bottom left */
+      padding: 12px 50px 12px 38px;
+    }
+  }
+  
+  @media only screen and (max-width: 1060px) {
+    .menu-item a {
+      /* top right bottom left */
+      padding: 12px 50px 12px 36px;
+    }
+  }
+  
+  @media only screen and (max-width: 1040px) {
+    .menu-item a {
+      /* top right bottom left */
+      padding: 12px 50px 12px 34px;
+    }
+  }
+  
+  @media only screen and (max-width: 1020px) {
+    .menu-item a {
+      /* top right bottom left */
+      padding: 12px 50px 12px 32px;
+    }
+  }
+  
+  @media only screen and (max-width: 1000px) {
+    .menu-item a {
+      /* top right bottom left */
+      padding: 12px 50px 12px 30px;
+    }
+  }
+  
+  @media only screen and (max-width: 980px) {
+    .menu-item a {
+      /* top right bottom left */
+      padding: 12px 50px 12px 28px;
+    }
+    .form-menu {
+      margin-left: 74%;
+    }
+  
+  }
+  
+  @media only screen and (max-width: 960px) {
+    .menu-item a {
+      /* top right bottom left */
+      padding: 12px 50px 12px 26px;
+    }
+  }
+  
+  @media only screen and (max-width: 940px) {
+    .menu-item a {
+      /* top right bottom left */
+      padding: 12px 50px 12px 24px;
+    }
+  }
+  
+  @media only screen and (max-width: 920px) {
+    .menu-item a {
+      /* top right bottom left */
+      padding: 12px 50px 12px 22px;
+    }
+    .form-menu {
+      margin-left: 74%;
+    }
+  
+  }
+  
+  @media only screen and (max-width: 900px) {
+    .menu-item a {
+      /* top right bottom left */
+      padding: 12px 50px 12px 20px;
+    }
+    .form-menu {
+      margin-left: 76%;
+    }
+  
+  }
+  
+  @media only screen and (max-width: 880px) {
+    .menu-item a {
+      /* top right bottom left */
+      padding: 12px 50px 12px 18px;
+    }
+    .form-menu {
+      margin-left: 76%;
+    }
+  
+  }
+  
+  @media only screen and (max-width: 860px) {
+    .menu-item a {
+      /* top right bottom left */
+      padding: 12px 50px 12px 16px;
+    }
+    .form-menu {
+      margin-left: 76%;
+    }
+  
+  }
+  
+  @media only screen and (max-width: 840px) {
+    .menu-item a {
+      /* top right bottom left */
+      padding: 12px 50px 12px 14px;
+    }
+    .form-menu {
+      margin-left: 76%;
+    }
+  
+  }
+  
+  @media only screen and (max-width: 820px) {
+    .menu-item a {
+      /* top right bottom left */
+      padding: 12px 50px 12px 12px;
+    }
+    .form-menu {
+      margin-left: 78%;
+    }
+  
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .menu-item a {
+      /* top right bottom left */
+      padding: 12px 50px 12px 10px;
+    }
+    .form-menu {
+      margin-left: 78%;
+    }
+  
+  }
