@@ -8,4 +8,4 @@ Pasta onde todas as imagens ficam armazenadas.
 
 * foto-perfil
 
-Esta img é a foto do criador do site.
+Esta img é a foto de perfil do criador do site.
