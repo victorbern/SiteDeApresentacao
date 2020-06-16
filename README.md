@@ -24,4 +24,4 @@ No 'ropape.php', eu crio e edito o rodapé da página - o último a ser carregad
 
 * rodape.css
 
-Este é o arqvuio externo responsável por manipular o css do arquivo onde eu crio o rodapé da página (rodape.php).
+Este é o arquivo externo responsável por manipular o css do arquivo onde está localizado o rodapé da página (rodape.php).
